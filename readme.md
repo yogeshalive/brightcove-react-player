@@ -8,6 +8,12 @@ No matter how you use this component, the only place it is available is npm.
 npm install --save brightcove-react-player
 ```
 
+or
+
+```sh
+yarn add brightcove-react-player
+```
+
 ## Standard Usage with JSX
 
 Most React applications are using JSX and the toolchain provided by `create-react-app`.

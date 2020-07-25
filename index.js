@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import brightcovePlayerLoader from "@brightcove/player-loader";
+const React = require("react");
+const brightcovePlayerLoader = require("@brightcove/player-loader");
 
 const ReactPlayerLoader = function ({
   wrapperProps = {},
@@ -17,7 +17,7 @@ const ReactPlayerLoader = function ({
 }) {
   const divRef = React.useRef();
 
-  useEffect(
+  React.useEffect(
     function () {
       divRef.current.innerHTML = "";
       const options = {
@@ -57,4 +57,4 @@ const ReactPlayerLoader = function ({
   return React.createElement("div", props);
 };
 
-export default ReactPlayerLoader;
+module.exports = ReactPlayerLoader;

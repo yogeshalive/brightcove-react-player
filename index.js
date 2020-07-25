@@ -1,5 +1,5 @@
 const React = require("react");
-const brightcovePlayerLoader = require("@brightcove/player-loader");
+const brightcovePlayerLoader = require("@brightcove/player-loader").default;
 
 const ReactPlayerLoader = function ({
   wrapperProps = {},
@@ -33,10 +33,10 @@ const ReactPlayerLoader = function ({
 
       brightcovePlayerLoader(options)
         .then(function (success) {
-          onSuccess(divRef, success);
+          onSuccess(success, divRef);
         })
         .catch(function (error) {
-          onFailure(divRef, error);
+          onFailure(error, divRef);
         });
     },
     [videoId, catalogSearch, catalogSequence, playlistId, playlistVideoId]

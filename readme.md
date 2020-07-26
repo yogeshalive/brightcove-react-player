@@ -58,6 +58,7 @@ For example, you may want to customize the `className` of the component (by defa
 ```jsx
 <ReactPlayerLoader wrapperClassName={{ className: "my-custom-class" }} />
 ```
+Rest all props can be passed as per brightcove-player
 
 ### Other Props
 

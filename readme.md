@@ -1,4 +1,4 @@
-A React component to load a Brightcove Player in the browser.
+A React component to load a Brightcove Player in the browser written in ES5 for compatibility
 
 ## Installation
 

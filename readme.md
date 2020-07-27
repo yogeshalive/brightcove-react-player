@@ -45,6 +45,11 @@ reactPlayerLoader = ReactDOM.render(
 );
 ```
 
+onSuccess (success , playerWrapperRef ) : takes in 2 parameters, success being the callback function and playerWrapperRef the ref value
+
+onFailure (failure , playerWrapperRef ) : takes in 2 parameters, failure being the callback function and playerWrapperRef the ref value
+
+
 ## Props
 
 ### `attrs`
@@ -91,3 +96,8 @@ const reactPlayerLoader = ReactDOM.render(
   document.getElementById("fixture")
 );
 ```
+Again,
+onSuccess (success , playerWrapperRef ) : takes in 2 parameters, success being the callback function and playerWrapperRef the ref value
+
+onFailure (failure , playerWrapperRef ) : takes in 2 parameters, failure being the callback function and playerWrapperRef the ref value
+

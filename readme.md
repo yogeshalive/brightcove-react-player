@@ -1,4 +1,4 @@
-A React component to load a Brightcove Player in the browser.
+A React component to load a Brightcove Player in the browser written in ES5 for compatibility
 
 ## Installation
 
@@ -63,6 +63,7 @@ For example, you may want to customize the `className` of the component (by defa
 ```jsx
 <ReactPlayerLoader wrapperClassName={{ className: "my-custom-class" }} />
 ```
+Rest all props can be passed as per brightcove-player
 
 ### Other Props
 
